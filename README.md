@@ -37,12 +37,12 @@ Google Forms をフロント入口、Sheets をデータベース、GAS を API 
 
 | 技術 | 用途 |
 | --- | --- |
-| React | 実装 |
-| TypeScript | 実装 |
-| Vite | 実装 |
-| Recharts | 実装 |
-| Google Apps Script | 実装 |
-| Google Sheets / Forms | 実装 |
+| React | フロントエンドUI実装 |
+| TypeScript | 型システム・GAS連携部の静的検査 |
+| Vite + vite-plugin-singlefile | ビルド・単一HTML化（GAS HtmlService配信用） |
+| Recharts | 回収率・属性別データの可視化 |
+| Google Apps Script | サーバーレスAPI層（doGet/doPost）・Sheets操作 |
+| Google Sheets / Forms | データストア・提出フォーム入口 |
 
 
 
