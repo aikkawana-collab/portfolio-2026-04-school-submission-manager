@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# Editor
+.cursor*
+
+# clasp auth (認証情報はコミットしない)
+.clasprc.json
+
+# clasp project config (スクリプトIDを公開しない)
+.clasp.json

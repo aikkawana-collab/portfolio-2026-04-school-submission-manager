@@ -1,0 +1,11 @@
+node_modules/**
+src/client/**
+dist/**
+.kiro/**
+scripts/**
+*.md
+*.ts
+!appsscript.json
+package.json
+package-lock.json
+tsconfig.json

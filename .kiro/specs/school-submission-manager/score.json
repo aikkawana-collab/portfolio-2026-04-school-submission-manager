@@ -1,0 +1,34 @@
+{
+  "project": "school-submission-manager",
+  "version": "1.0.0",
+  "scored_at": "2026-03-09T00:00:00+09:00",
+  "maturity_level": "L3",
+  "maturity_label": "Implementation Ready",
+  "cute_score": {
+    "total": 98,
+    "max": 100,
+    "breakdown": {
+      "completeness": { "score": 25, "max": 25 },
+      "unambiguity": { "score": 24, "max": 25 },
+      "testability": { "score": 25, "max": 25 },
+      "essentiality": { "score": 24, "max": 25 }
+    }
+  },
+  "artifacts": {
+    "requirements_md": { "exists": true, "status": "pass" },
+    "design_md": { "exists": true, "status": "pass" },
+    "tasks_md": { "exists": true, "status": "pass", "task_count": 36, "phase_count": 5 },
+    "threat_model_md": { "exists": true, "status": "pass", "threat_count": 11 },
+    "slo_md": { "exists": true, "status": "pass", "sli_count": 5, "slo_count": 5 },
+    "runbook_md": { "exists": true, "status": "pass" },
+    "guardrails_md": { "exists": true, "status": "pass" }
+  },
+  "quality_gates": {
+    "cute_score_gte_98": true,
+    "all_artifacts_exist": true,
+    "cross_reference_errors": 0,
+    "unresolved_items": 0,
+    "security_requirements_exist": true
+  },
+  "pass": true
+}
