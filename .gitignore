@@ -4,6 +4,10 @@ node_modules/
 # Build output
 dist/
 
+# vite-plugin-singlefile bundled HTML (built artifacts of src/client → loaded by GAS HtmlService)
+src/server/teacher.html
+src/server/student.html
+
 # Environment variables
 .env
 .env.local

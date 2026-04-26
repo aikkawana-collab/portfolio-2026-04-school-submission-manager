@@ -66,6 +66,7 @@ Google Forms をフロント入口、Sheets をデータベース、GAS を API 
 - **原本は別途 Private リポジトリで管理**されており、このリポジトリは原本のサニタイズ済み複製です
 - メールアドレス・APIキー・プライベート ID 等の機密情報は自動的に `<...>` プレースホルダに置換されています
 - 定期実行される自動化ツール `portfolio-publish-tool` により公開されました
+- **ビルド成果物（`src/server/teacher.html` / `student.html`）は含めていません**。React + TypeScript ソース（`src/`）と Vite 設定（`vite.config.*.ts`）から `npm install && npm run build` で再生成できます。生成された単一HTMLは GAS HtmlService から配信されます
 
 ## License
 
